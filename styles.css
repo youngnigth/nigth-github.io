@@ -1,18 +1,18 @@
+/* Estilos base */
 body {
     font-family: 'Poppins', sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #eef1f7;
+    background-color: #f8f9fa;
     color: #333;
-    line-height: 1.6;
 }
 
 header {
-    background: linear-gradient(135deg, #2c3e50, #34495e);
+    background-color: #007BFF;
     color: #fff;
-    padding: 20px 0;
+    padding: 60px 0;
     text-align: center;
-    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
 header h1 {
@@ -22,45 +22,44 @@ header h1 {
 }
 
 header p {
-    margin: 5px 0 0;
+    margin: 10px 0 0;
     font-size: 1.2em;
-    opacity: 0.8;
+    font-weight: 400;
 }
 
 .hero {
-    background: linear-gradient(135deg, #007BFF, #0056b3);
-    color: #fff;
-    padding: 60px 0;
+    padding: 50px 0;
     text-align: center;
-    border-bottom-left-radius: 30px;
-    border-bottom-right-radius: 30px;
+    background-color: #fff;
 }
 
 .hero h2 {
-    margin-bottom: 20px;
+    margin-bottom: 30px;
     font-size: 2.2em;
-    font-weight: 500;
+    font-weight: 600;
+    color: #007BFF;
 }
 
 .hero form {
     max-width: 600px;
     margin: 0 auto;
-    padding: 25px;
-    background-color: rgba(255, 255, 255, 0.15);
-    border-radius: 12px;
-    backdrop-filter: blur(10px);
+    padding: 30px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
 
 .form-group {
-    margin-bottom: 15px;
+    margin-bottom: 20px;
     text-align: left;
 }
 
 .form-group label {
     display: block;
-    margin-bottom: 5px;
-    font-size: 1.1em;
+    margin-bottom: 8px;
+    font-size: 1em;
     font-weight: 500;
+    color: #555;
 }
 
 .form-group input,
@@ -69,150 +68,145 @@ header p {
     width: 100%;
     padding: 12px;
     font-size: 1em;
-    border: 1px solid #ccc;
+    border: 1px solid #ddd;
     border-radius: 8px;
-    outline: none;
-    transition: 0.3s;
+    background-color: #f8f9fa;
+    transition: border-color 0.3s ease;
 }
 
 .form-group input:focus,
 .form-group select:focus,
 .form-group input[type="datetime-local"]:focus {
     border-color: #007BFF;
-    box-shadow: 0 0 8px rgba(0, 123, 255, 0.2);
+    outline: none;
 }
 
 #map {
-    height: 320px;
+    height: 300px;
     width: 100%;
     margin-top: 10px;
-    border-radius: 12px;
-    border: 2px solid #fff;
-    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    border: 1px solid #ddd;
 }
 
 button {
-    background: #007BFF;
+    background-color: #007BFF;
     color: #fff;
-    padding: 12px 20px;
+    padding: 14px 20px;
     font-size: 1.1em;
     border: none;
     border-radius: 8px;
     cursor: pointer;
     width: 100%;
-    transition: 0.3s;
+    transition: background-color 0.3s ease;
 }
 
 button:hover {
-    background: #0056b3;
-    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    background-color: #0056b3;
 }
 
 .features {
     padding: 60px 0;
     text-align: center;
-    background: #fff;
-    border-radius: 20px;
-    margin: 30px;
-    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.05);
+    background-color: #f8f9fa;
 }
 
 .features h2 {
     margin-bottom: 40px;
-    font-size: 2em;
+    font-size: 2.2em;
     font-weight: 600;
+    color: #007BFF;
 }
 
 .feature-list {
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     flex-wrap: wrap;
-    gap: 20px;
 }
 
 .feature {
-    max-width: 320px;
+    max-width: 300px;
+    margin: 20px;
     padding: 25px;
-    background: #f8f9fa;
-    border-radius: 12px;
-    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
-    transition: 0.3s;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
 }
 
 .feature:hover {
-    transform: translateY(-5px);
-    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.15);
+    transform: translateY(-10px);
 }
 
 .feature h3 {
-    margin-bottom: 10px;
-    font-size: 1.6em;
+    margin-bottom: 15px;
+    font-size: 1.5em;
     font-weight: 600;
+    color: #007BFF;
 }
 
 .feature p {
-    font-size: 1.1em;
+    font-size: 1em;
     color: #555;
 }
 
 footer {
-    background: linear-gradient(135deg, #2c3e50, #34495e);
+    background-color: #007BFF;
     color: #fff;
     text-align: center;
     padding: 20px 0;
-    margin-top: 40px;
+    margin-top: 60px;
 }
 
 footer p {
     margin: 0;
     font-size: 1em;
-    opacity: 0.8;
 }
 
+/* Media Queries para pantallas pequeñas (móviles) */
 @media (max-width: 768px) {
-    .hero {
-        padding: 40px 0;
+    header h1 {
+        font-size: 2.2em;
     }
+
+    header p {
+        font-size: 1em;
+    }
+
     .hero h2 {
         font-size: 1.8em;
     }
+
     .hero form {
         padding: 20px;
     }
-    .feature-list {
-        flex-direction: column;
-        align-items: center;
-    }
+
     .feature {
-        max-width: 90%;
+        max-width: 100%;
+        margin: 10px 0;
     }
 }
 
 @media (max-width: 480px) {
     header h1 {
-        font-size: 2em;
+        font-size: 1.8em;
     }
+
+    header p {
+        font-size: 0.9em;
+    }
+
     .hero h2 {
         font-size: 1.5em;
     }
-    .form-group label {
-        font-size: 1em;
-    }
+
     .form-group input,
     .form-group select,
     .form-group input[type="datetime-local"] {
         font-size: 0.9em;
     }
+
     button {
-        font-size: 1em;
-    }
-    .features h2 {
-        font-size: 1.5em;
-    }
-    .feature h3 {
-        font-size: 1.3em;
-    }
-    .feature p {
         font-size: 1em;
     }
 }
