@@ -101,7 +101,7 @@ document.getElementById("reservation-form").addEventListener("submit", async fun
 
         try {
             // Reemplaza "TU_URL_DE_APPS_SCRIPT" con la URL de tu implementación
-            const response = await fetch("https://script.google.com/macros/s/AKfycbyXsa48A6h4qWTteqJW2ibpmXwlGor6Zb7_RMuH74xE_MfaIqAKIuINPxwynovtPrNZLQ/exec", {
+            const response = await fetch("https://script.google.com/macros/s/AKfycbyq7x7WHsxw2wjvbMGVeVEZtWTllyi-nIAWRRsOXLGTj5UTLjOTQV8lfV_SEIkdxLQe/exec", {
                 method: "POST",
                 body: JSON.stringify(formData),
             });
